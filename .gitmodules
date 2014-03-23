@@ -19,15 +19,15 @@
 [submodule "bundle/nerdcommenter"]
 	path = bundle/nerdcommenter
 	url = git://github.com/scrooloose/nerdcommenter.git
-[submodule "bundle/supertab"]
-	path = bundle/supertab
-	url = git://github.com/vim-scripts/supertab.git
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
 [submodule "bundle/vim-nerdtree-tabs"]
 	path = bundle/vim-nerdtree-tabs
 	url = https://github.com/jistr/vim-nerdtree-tabs.git 
-[submodule "budle/emmet-vim"]
-	path = budle/emmet-vim
+[submodule "bundle/vim-easymotion"]
+	path = bundle/vim-easymotion
+	url = https://github.com/Lokaltog/vim-easymotion.git
+[submodule "bundle/emmet-vim"]
+	path = bundle/emmet-vim
 	url = https://github.com/mattn/emmet-vim.git
