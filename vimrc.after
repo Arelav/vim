@@ -1,0 +1,8 @@
+"set nocp
+
+colorscheme base16-tomorrow
+set background=dark
+let base16colorspace=256  " Access colors present in 256 colorspace
+:au FocusLost * :wa
+let g:airline_powerline_fonts = 1
+hi NonText ctermfg=black guifg=black
