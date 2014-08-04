@@ -1,8 +1,13 @@
 "set nocp
 
-colorscheme base16-tomorrow
-set background=dark
+let g:airline_powerline_fonts = 1
+"colorscheme tomorrow-night
 let base16colorspace=256  " Access colors present in 256 colorspace
 :au FocusLost * :wa
-let g:airline_powerline_fonts = 1
 hi NonText ctermfg=black guifg=black
+set background=dark
+"set t_Co=256
+colorscheme base16-default
+:imap jj <Esc>
+let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute \"ng-"]
+let g:neocomplete#enable_at_startup = 1
