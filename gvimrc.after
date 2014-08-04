@@ -1,7 +1,8 @@
 let g:Powerline_symbols = 'fancy'
-set guifont=Source\ Code\ Pro\ Medium:h15
+set guifont=Monaco\ for\ Powerline:h14
 let base16colorspace=256  " Access colors present in 256 colorspace
 set background=dark
 colorscheme base16-tomorrow
 hi NonText guifg=bg
-
+set guioptions-=r  "remove right-hand scroll bar
+set guioptions-=L  "remove left-hand scroll bar
