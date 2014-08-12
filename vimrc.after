@@ -13,3 +13,16 @@ let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute \"ng-"]
 let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute \"ion-"]
 let g:neocomplete#enable_at_startup = 1
 let g:ctrlp_max_files=0
+" Enable snipMate compatibility feature.
+let g:neosnippet#enable_snipmate_compatibility = 1
+
+" Tell Neosnippet about the other snippets
+let g:neosnippet#snippets_directory='~/dotfiles/janus/neosnippet-snippets'
+
+" Switch between tabs on ⌥ +⌘ + arrows 
+map <D-A-Right> :tabn<CR>
+map <D-A-Left>  :tabp<CR>
+let g:nerdtree_tabs_open_on_console_startup=1
+
+" Yank to system clipboard
+set clipboard=unnamed
