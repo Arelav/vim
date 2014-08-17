@@ -9,10 +9,14 @@ set background=dark
 "set t_Co=256
 colorscheme base16-default
 :imap jj <Esc>
-let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute \"ng-"]
-let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute \"ion-"]
+
+" https://github.com/scrooloose/syntastic/issues/612
+let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute " ,"trimming empty <", "unescaped &" , "lacks \"action", "is not recognized!", "discarding unexpected"]
+
 let g:neocomplete#enable_at_startup = 1
+
 let g:ctrlp_max_files=0
+
 " Enable snipMate compatibility feature.
 let g:neosnippet#enable_snipmate_compatibility = 1
 
